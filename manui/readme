@@ -1,0 +1,6 @@
+npx sequelize-auto -h localhost -d chama -u root -x "" -e mysql -o ./models
+
+yarn init -y
+&&
+yarn add sequelize sequelize-cli mysql2 &&
+ yarn add -D sequelize-auto && npx sequelize-auto -h localhost -d chama -u root -x "" -e mysql -o ./models

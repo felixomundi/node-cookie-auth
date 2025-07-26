@@ -1,0 +1,9 @@
+.qodo
+node_modules/
+yarn.lock
+.env
+build/
+~README
+*.zip
+*.rar
+**/node_modules/
